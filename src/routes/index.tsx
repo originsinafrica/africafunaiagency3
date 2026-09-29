@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowRight } from "lucide-react";
-import universeImage from "@/assets/aaa-deux-univers.jpeg.asset.json";
-import zemzemImage from "@/assets/zemidjan-grimace.jpeg.asset.json";
-import statuesImage from "@/assets/statues-en-fuite.jpeg.asset.json";
-import tresorRoyalImage from "@/assets/tresor-tabouret-royal.jpeg.asset.json";
+import universeImage from "@/assets/zemzem-cotonou.jpg";
+import zemzemImage from "@/assets/sam-zemidjan.jpg";
+import statuesImage from "@/assets/statues-en-fuite.jpg";
+import tresorRoyalImage from "@/assets/abomey-tresors.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
