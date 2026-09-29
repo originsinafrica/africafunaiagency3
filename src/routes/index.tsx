@@ -552,7 +552,7 @@ function Index() {
       <main id="top">
         {/* HERO */}
         <section className="relative flex min-h-[100svh] items-end overflow-hidden bg-navy text-cream">
-          <img src={universeImage.url} alt="Un conducteur de zemidjan et sa passagère reliés aux trésors d'un musée béninois" className="absolute inset-0 size-full object-cover object-center" />
+          <img src={universeImage} alt="Un conducteur de zemidjan et sa passagère reliés aux trésors d'un musée béninois" className="absolute inset-0 size-full object-cover object-center" />
           <div className="absolute inset-0 bg-hero-overlay" />
           <div className="relative mx-auto grid w-full max-w-7xl gap-10 px-5 pb-12 pt-36 sm:px-8 md:pb-16 lg:grid-cols-12 lg:px-10">
             <div className="lg:col-span-9">
@@ -754,7 +754,7 @@ function Index() {
             <div className="mt-14 grid gap-5 md:grid-cols-2">
               {/* Zemzem */}
               <article className="group relative min-h-[680px] overflow-hidden bg-sun">
-                <img src={zemzemImage.url} alt="Un conducteur de zemidjan faisant une grimace dans un marché de Cotonou" className="absolute inset-0 size-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.025]" />
+                <img src={zemzemImage} alt="Un conducteur de zemidjan faisant une grimace dans un marché de Cotonou" className="absolute inset-0 size-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.025]" />
                 <div className="absolute inset-x-0 bottom-0 bg-ink/90 p-7 text-cream backdrop-blur-sm md:p-9">
                   <p className="mb-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-sun">Le Bénin que l'on vit · Comédie visuelle · Cotonou</p>
                   <h3 className="font-display text-5xl">Zemzem</h3>
@@ -768,7 +768,7 @@ function Index() {
 
               {/* Les Trésors */}
               <article className="group relative min-h-[680px] overflow-hidden bg-navy">
-                <img src={tresorRoyalImage.url} alt="Tabouret royal africain présenté dans un musée" className="absolute inset-0 size-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.025]" />
+                <img src={tresorRoyalImage} alt="Tabouret royal africain présenté dans un musée" className="absolute inset-0 size-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.025]" />
                 <div className="absolute inset-x-0 bottom-0 bg-ink/90 p-7 text-cream backdrop-blur-sm md:p-9">
                   <p className="mb-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-sun">Le Bénin que l'on découvre · Aventure · Histoire · Science-fiction</p>
                   <h3 className="font-display text-5xl">Les Trésors</h3>
@@ -783,7 +783,7 @@ function Index() {
 
             {/* Centre commun */}
             <div className="relative mt-5 overflow-hidden">
-              <img src={statuesImage.url} alt="Trois statues royales s'échappant d'un musée" className="h-[30rem] w-full object-cover object-center md:h-[38rem]" />
+              <img src={statuesImage} alt="Trois statues royales s'échappant d'un musée" className="h-[30rem] w-full object-cover object-center md:h-[38rem]" />
               <div className="absolute inset-0 flex items-end justify-center bg-card-overlay px-6 pb-8 text-center md:pb-12">
                 <div>
                   <p className="font-display text-3xl leading-tight text-cream md:text-5xl">Un même pays.<br /><span className="text-sun">Des milliers de façons de le découvrir.</span></p>
