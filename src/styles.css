@@ -41,6 +41,8 @@
   --color-sky: var(--sky);
   --color-line: var(--line);
   --color-blue-glow: var(--blue-glow);
+  --color-cosmos: var(--cosmos);
+  --color-cosmos-deep: var(--cosmos-deep);
   --color-ink: var(--ink);
   --color-forest-bright: var(--forest-bright);
 }
@@ -59,6 +61,8 @@
   --sky: oklch(0.66 0.18 145);
   --line: oklch(0.78 0.025 85);
   --blue-glow: oklch(0.19 0.025 145);
+  --cosmos: oklch(0.24 0.055 248);
+  --cosmos-deep: oklch(0.17 0.04 252);
   --radius: 0.25rem;
   --background: var(--canvas);
   --foreground: var(--navy);
